@@ -1,0 +1,21 @@
+.title_page {
+  /* color: green; */
+  text-align: center;
+
+  /* height: 160px; */
+  margin: 30px 0px 10px 10px;
+  padding: 20px;
+
+  border: 10px green;
+  border-style: solid;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  width: 50vw;
+}
+
+#desc_container{
+  border: 2px solid red;
+  background-color: lightyellow;
+  width: 50%; /* set to 50% to make use of the margin auto*/ 
+  margin: auto; /* center the desc_container which was set to 50%*/
+}
