@@ -1,0 +1,30 @@
+.circle{
+  border-radius: 50%;
+  display: inline-block;
+
+  width: 200px;
+  height: 200px;
+}
+
+#blue {
+    border: 10px solid blue;
+}
+#black {
+    border: 10px solid black;
+}
+#red {
+    border: 10px solid red;
+}
+#gold {
+    border: 10px solid gold;
+}
+#green {
+    border: 10px solid green;
+}
+
+.second{
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+  z-index: -1;
+}
