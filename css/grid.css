@@ -1,7 +1,7 @@
 #css-grid-container{
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(auto-fill, 186px);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .tile {
@@ -17,7 +17,3 @@
 .tile:hover{
   transform: scale(1.1);
 }
-
-
-
-

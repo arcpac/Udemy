@@ -1,0 +1,35 @@
+.main-container{
+  width: 100%;
+}
+
+.row-one, .row-two, .row-three{
+  width: 100%;
+  border: 5px solid green;
+}
+
+.box{
+  width: 80px;
+  height: 20px;
+  padding: 100px;
+  margin: 10px;
+  border: 2px solid blue;
+  background-color: yellow;
+
+  display: inline-block;
+}
+
+h2 {
+  text-align: center;
+}
+
+.text-content{
+  border: 2px solid black;
+  width: 800px;
+  margin: 60px auto;
+  padding: 10px;
+}
+
+#text-container{
+  height: 380px;
+  text-align: justify;
+}
