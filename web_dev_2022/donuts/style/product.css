@@ -1,0 +1,66 @@
+.product{
+  width: 100vw;
+}
+.row-one, .row-two, .row-three{
+  width: 90vw;
+  margin: 10px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-item:hover{
+  opacity: 0.8;
+}
+
+.grid-item{
+  width: 30%;
+  height: 310px;
+  margin: 15px;
+}
+
+#item-one{
+  background-image: url(../images/beans.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+#item-two{
+  background-image: url(../images/braso.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+#item-three{
+  background-image: url(../images/burger.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+#item-four{
+  background-image: url(../images/crinkles.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+#item-five{
+  background-image: url(../images/tiramisu.jpeg);
+  background-size: cover;
+  background-position: bottom;
+}
+#item-six{
+  background-image: url(../images/lecheflan.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+#item-seven{
+  background-image: url(../images/pancake.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+#item-eight{
+  background-image: url(../images/pancake2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+#item-nine{
+  background-image: url(../images/pineapples.jpeg);
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,51 @@
+.about{
+  width: 100vw;
+  height: 80vh;
+}
+.about-container{
+  width: 85%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-box{
+  text-align: justify;
+  line-height: 220%;
+  font-weight: bold;
+  width: 45%;
+
+}
+.right-box{
+  width: 45%;
+  margin-left: 6%;
+}
+
+.grid-image-1, .grid-image-2,.grid-image-3,.grid-image-4{
+  width: 50%;
+  height: 240px;
+}
+.grid-image-1{
+  background-image: url(../images/pancake.jpeg);
+  background-size: cover;
+  background-position: top;
+}
+.grid-image-2{
+  background-image: url(../images/lecheflan.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.grid-image-3{
+  background-image: url(../images/tiramisu.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.grid-image-4{
+  background-image: url(../images/wrap.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.top-row, .bottom-row{
+  display: flex;
+  flex-direction: row;
+}

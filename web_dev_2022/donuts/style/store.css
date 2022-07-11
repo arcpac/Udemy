@@ -1,0 +1,15 @@
+.stores{
+  width: 100vw;
+}
+.stores-container{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.store-item{
+  width: 30%;
+  height: 240px;
+  margin: 20px;
+  text-align: center;
+}
